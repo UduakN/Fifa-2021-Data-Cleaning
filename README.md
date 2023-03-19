@@ -48,7 +48,7 @@ The measurement for the height in the raw data were in cm, feet and inches, they
 ![Height](https://user-images.githubusercontent.com/128192166/226185685-2115a1ef-dd3d-4a86-81ff-471992e98279.PNG)
 
 # Weight Column
-The measurements for weight were inially in kg and lbs. I converted kg to lbs to have a uniform measurement.
+The measurements for weight were initially in kg and lbs. I converted kg to lbs to have a uniform measurement.
 ![weight](https://user-images.githubusercontent.com/128192166/226185818-8445b07f-8a21-40e7-a8bd-482457c50e01.PNG)
 
 # Value, Wages and Release Clause Columns
