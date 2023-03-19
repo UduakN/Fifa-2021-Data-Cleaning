@@ -1,13 +1,13 @@
 # Fifa-2021-Data-Cleaning
 
 # Introduction
-I participated in the data cleaning challenge on the twitter space. This was an opportunity given to Data Analyst to improve on their data cleaning skill. My previous projects data were either clean or semi clean datas, that is the main reason why I participated in the #datacleaning challenge as this was a messy dataset, this was to improve on my cleaning skill and learn from others. 
+I participated in the data cleaning challenge on the Twitter space. This was an opportunity given to Data Analysts to improve on their data cleaning skill. My previous projects data were either clean or semi clean, that is the main reason why I participated in the #datacleaning challenge as this was a messy dataset. This was to improve on my cleaning skill and learn from others. 
 
 # About the Data
-The FIFA 21 dataset was gotten from the Kaggle website https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring, It was a raw and messy csv data which contained 18979 rows and 77 columns. The dataset contained informations about football players which included their IDs, Names, Height, Weight, best positions, Wages, Value and so on
+The FIFA 21 dataset was gotten from the Kaggle website https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring, It was a raw and messy csv data which contained 18979 rows and 77 columns. The dataset contained information about football players which included their IDs, Names, Height, Weight, best positions, Wages, Value and so on
 
 # Data Transformation
-Before the data was transform, I noticed the data had special characters, I then changed the file Origin from Western European (Windows) to Unicode (UTF8) as seen below. Thereafter proceeded to transform data.
+Before the data was transformed, I noticed the data had special characters, I then changed the file Origin from Western European (Windows) to Unicode (UTF8) as seen below. Thereafter, I proceeded to transform the data.
 ![Before and After UTF-8](https://user-images.githubusercontent.com/128192166/226180938-4c8ee300-f25b-45f0-8df1-4389ce8381bc.PNG)
 
 # Data Observation After Importing
@@ -27,7 +27,7 @@ I changed the data type from whole number to text as IDs are unique and will not
 ![ID](https://user-images.githubusercontent.com/128192166/226182870-a94f1f0e-e695-4e6d-a454-6528b49a9961.PNG)
 
 # Name Column
-The names were correct except 1 which had special character as name initial, I used replace value function to  change it to the correct initial
+The names were correct except one which had special character as name initial. I used replace value function to change it to the correct initial
 ![Name](https://user-images.githubusercontent.com/128192166/226183814-1201e4f8-7b17-43c6-849b-c6b7ca9ff5c9.PNG)
 
 # PhotoUrl and PlayerUrl Columns
